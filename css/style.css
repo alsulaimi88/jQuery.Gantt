@@ -1,11 +1,11 @@
 .gantt {
     width: 100%;
-    margin: 20px auto;
-    border: 14px solid #ddd;
+    margin: 15px auto;
+    border: 5px solid #ddd;
     position: relative;
--webkit-border-radius: 6px;
-   -moz-border-radius: 6px;
-        border-radius: 6px;
+-webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+        border-radius: 3px;
 -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -150,9 +150,10 @@
 }
 
 .fn-gantt .today {
-    background-color: #fff8da;
-    height: 24px;
-    font-weight: bold;
+    background-color: #ff54001f;
+    height: 1000px;
+    font-weight: bolder;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -189,9 +190,9 @@
     position: absolute;
     z-index: 10;
     text-align: center;
--webkit-box-shadow: 0 0 1px rgba(0,0,0,0.25) inset;
-   -moz-box-shadow: 0 0 1px rgba(0,0,0,0.25) inset;
-        box-shadow: 0 0 1px rgba(0,0,0,0.25) inset;
+-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5) inset;
+   -moz-box-shadow: 0 0 3px rgba(0,0,0,0.5) inset;
+        box-shadow: 0 0 3px rgba(0,0,0,0.5) inset;
 -webkit-border-radius: 3px;
    -moz-border-radius: 3px;
         border-radius: 3px;
@@ -207,7 +208,7 @@
     text-shadow: 0 1px 0 rgba(255,255,255,0.4);
     color: #414B57 !important;
     text-align: center;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .fn-gantt .ganttRed {
